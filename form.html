@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Page for Task Manager using Bootstrap</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+    </head>
+    
+    <body>
+       
+       <div class="container">
+            <form>
+
+                <div class="form-group">
+                    <label>Title</label><br>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Description</label><br>
+                    <textarea rows="3" class="form-control"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Category</label><br>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Priority Level</label><br>
+                <select class="form-control">
+                        <option >Select an item</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Progress Level</label><br>
+                <select class="form-control">
+                        <option >Select an item</option>
+                        <option value="pending">Pending</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="completed">Completed</option>
+                </select>
+                </div>
+
+                <button class="btn btn-primary">Submit</button>
+
+            </form>
+       </div>
+       
+       
+       
+       
+       
+       
+       
+        <!--
+
+       <form action=""> 
+            Title: <br>
+            <input type="text"><br><br>
+            Description: <br>
+            <input type="text"><br><br>
+            Category: <br>
+            <input type="text"><br><br>
+            Priority Level: <br>
+            <select name="priority" id="priority1">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select> <br><br>
+            Progress Level: <br>
+            <select name="progress" id="progress1">
+                <option value="pending">Pending</option>
+                <option value="in-progress">In Progress</option>
+                <option value="completed">Completed</option>
+            </select><br><br>
+            <input type="submit">
+
+        </form>
+
+         -->
+    </body>
+</html>
